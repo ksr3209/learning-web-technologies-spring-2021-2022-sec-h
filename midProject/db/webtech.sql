@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 22, 2022 at 07:37 AM
+-- Generation Time: Mar 22, 2022 at 08:03 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -36,17 +36,16 @@ CREATE TABLE `students` (
   `sex` varchar(7) NOT NULL,
   `dob` date NOT NULL,
   `addmissiondate` date NOT NULL,
-  `address` varchar(50) NOT NULL,
-  `parentid` varchar(20) NOT NULL
+  `address` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `students`
 --
 
-INSERT INTO `students` (`id`, `name`, `password`, `phone`, `email`, `sex`, `dob`, `addmissiondate`, `address`, `parentid`) VALUES
-('19-41179-2', 'koushik', '123', '019102457890', 'koushik.edu@gmail.co', 'Male', '1999-10-24', '2011-01-09', 'dhaka', 'pa-123-1'),
-('student', 'student', 'student', '017520696964', 'student@gmail.com', 'Male', '2001-12-12', '2014-12-06', ' AirportAvenue', 'pa-124-1');
+INSERT INTO `students` (`id`, `name`, `password`, `phone`, `email`, `sex`, `dob`, `addmissiondate`, `address`) VALUES
+('19-41179-2', 'koushik', '123', '019102457890', 'koushik.edu@gmail.co', 'Male', '1999-10-24', '2011-01-09', 'dhaka'),
+('student', 'student', 'student', '017520696964', 'student@gmail.com', 'Male', '2001-12-12', '2014-12-06', ' AirportAvenue');
 
 -- --------------------------------------------------------
 
@@ -66,7 +65,6 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`userid`, `password`, `usertype`) VALUES
 ('admin', 'admin', 'admin'),
-('parent', 'parent', 'parent'),
 ('student', 'student', 'student');
 
 --
