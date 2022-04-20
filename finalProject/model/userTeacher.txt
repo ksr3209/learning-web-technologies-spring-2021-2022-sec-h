@@ -1,0 +1,5 @@
+teacher|teacher|teacher|teacher@teacher.teacher
+teacher|teacher|1234|teacher@email.com
+teacher|iqbal hussain|admin|iqbalkha@gmail.com
+teacher|sohel khan|admin|gkSOHel@gmail.com
+teacher|safiq|admin|kaRIo@gmail.com

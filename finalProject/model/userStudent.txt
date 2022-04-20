@@ -1,0 +1,4 @@
+student|student|student|student@student.student
+student|student|1234|student@email.com
+student|19-41179-2|1234|aiub@gmail.com
+student|pulok|1234|pulok@gmail.com
